@@ -1,7 +1,7 @@
 # aws-network-mirroring-for-api-testing
 
 ## Why does this repo exist?
-This repo contains steps and code to use AWS traffic mirroring for REST API testing. The most common use case would be to mirror Production traffic and test if changes to an API break over production traffic.
+This repo contains steps and code to use AWS traffic mirroring for REST API testing. The most common use case would be to mirror Production traffic and test if changes to an API break over production traffic. Others can be for Security, traffic analysis, etc.
 
 ## What is AWS Network mirroring?
 The official answer is here - https://docs.aws.amazon.com/vpc/latest/mirroring/what-is-traffic-mirroring.html
