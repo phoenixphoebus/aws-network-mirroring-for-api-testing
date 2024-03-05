@@ -6,7 +6,7 @@ This repo contains steps and code to use AWS traffic mirroring for REST API test
 ## What is AWS Network mirroring?
 The official answer is here - https://docs.aws.amazon.com/vpc/latest/mirroring/what-is-traffic-mirroring.html
 
-TLDR - Its a feature that allows replaying packets that cross an ENI (both ways) to another ENI. The key here is - *ENI*. It also is over UDP so the disadvantages of UDP apply.
+TLDR - Its a feature that allows replaying packets that cross an ENI (both ways) to another ENI. The key here is - *ENI*. The replay is over UDP so the disadvantages of UDP apply.
 
 ## How will we demonstrate API testing?
 * Creation of a REST API is beyond the scope of this guide but two nginx servers that return a JSON would be used for the demo.
